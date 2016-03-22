@@ -2,6 +2,7 @@ package com.xiong.tuan.present;
 
 
 import com.xiong.tuan.MVP.mvp.MvpPresenter;
+import com.xiong.tuan.entity.User;
 import com.xiong.tuan.view.LoginView;
 
 /**
@@ -10,4 +11,5 @@ import com.xiong.tuan.view.LoginView;
 public interface LoginPresenter extends MvpPresenter<LoginView> {
 
     void login(String phoneNum, String passwd);
+    void fetchUserInfo(User user);
 }

@@ -9,6 +9,7 @@ import com.xiong.tuan.MVP.base.BaseActivity;
 import com.xiong.tuan.R;
 import com.xiong.tuan.entity.User;
 import com.xiong.tuan.present.LoginPresenter;
+import com.xiong.tuan.present.LoginPresenterImpl;
 import com.xiong.tuan.view.LoginView;
 
 import butterknife.InjectView;
@@ -69,7 +70,7 @@ public class LoginActivity extends BaseActivity{
 
         @Override
         public LoginPresenter createPresenter() {
-            return null;
+            return new LoginPresenterImpl(getActivity());
         }
     }
 }

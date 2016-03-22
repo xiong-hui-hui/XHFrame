@@ -18,7 +18,7 @@ public class Agency implements Parcelable{
     }
     public static final Parcelable.Creator<Agency> CREATOR = new Parcelable.Creator<Agency>() {
         public Agency createFromParcel(Parcel source) {
-            return new Agency(source);
+            return new Agency();
         }
 
         public Agency[] newArray(int size) {

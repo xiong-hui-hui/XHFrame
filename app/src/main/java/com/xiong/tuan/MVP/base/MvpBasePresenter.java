@@ -1,5 +1,6 @@
 package com.xiong.tuan.MVP.base;
 
+import android.content.Context;
 import android.support.annotation.Nullable;
 
 import com.xiong.tuan.MVP.mvp.MvpPresenter;
@@ -20,7 +21,11 @@ import de.greenrobot.event.EventBus;
 public class MvpBasePresenter<V extends MvpView> implements MvpPresenter<V> {
 
     private WeakReference<V> viewRef;
-    //protected Context mContext;
+    protected Context mContext;
+
+    protected MvpBasePresenter(Context context){
+        this.mContext = context.getApplicationContext();
+    }
 
     @Override public void attachView(V view) {
         viewRef = new WeakReference<V>(view);
