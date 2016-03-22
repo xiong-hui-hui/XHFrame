@@ -3,4 +3,36 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="black">#000000</color>
+    <color name="red">#FFC93437</color>
+    <color name="blue">#FF375BF1</color>
+    <color name="yellow">#FFF7D23E</color>
+    <color name="green">#FF34A350</color>
+    <color name="white">#FFFFFF</color>
+    <color name="toolbar_bg_color">@color/white</color>
+    <color name="green_50d2c2">#50d2c2</color>
+    <color name="blue_33ccff">#33ccff</color>
+    <color name="blue_50d2c2">#50d2c2</color>
+    <color name="blue_33ccaa">#33ccaa</color>
+    <color name="blue_6ed7ff">#6ed7ff</color>
+    <color name="gray_808080">#808080</color>
+    <color name="gray_33">#333333</color>
+    <color name="gray_66">#666666</color>
+    <color name="gray_99">#999999</color>
+    <color name="gray_cc">#CCCCCC</color>
+    <color name="gray_f5f5f5">#f5f5f5</color>
+    <color name="line_color">#e4e4e4</color>
+    <color name="line_color_f3f3f4">#f3f3f4</color>
+    <color name="bg_color">#f5f5f5</color>
+    <color name="bgColor_f9f3f3">#f9f3f3</color>
+    <color name="black_1d1d26">#1d1d26</color>
+    <color name="red_ff3366">#ff3366</color>
+    <color name="red_ff9966">#ff9966</color>
+    <color name="red_ff9933">#ff9933</color>
+    <color name="red_fd7373">#fd7373</color>
+    <color name="red_ff6666">#ff6666</color>
+    <color name="yellow_ee8f6e">#ee8f6e</color>
+    <color name="purple">#800080</color>
 </resources>

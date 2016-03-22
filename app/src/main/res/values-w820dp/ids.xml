@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <item name="layout_bottom" type="id" tools:ignore="ResourceName" />
+    <item name="tvNotFit" type="id" tools:ignore="ResourceName" />
+    <item name="contentView" type="id"/>
+    <item name="errorView" type="id"/>
+    <item name="loadingView" type="id"/>
+</resources>

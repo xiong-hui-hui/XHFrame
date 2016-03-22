@@ -18,7 +18,7 @@ public class Leader implements Parcelable{
     }
     public static final Parcelable.Creator<Leader> CREATOR = new Parcelable.Creator<Leader>() {
         public Leader createFromParcel(Parcel source) {
-            return new Leader(source);
+            return new Leader();
         }
 
         public Leader[] newArray(int size) {
